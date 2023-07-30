@@ -9,12 +9,9 @@ module.exports = {
       xl: '1440px',
     },
     extend: {
-      spacing: {
-        128: '32rem',
-        144: '36rem',
-      },
-      borderRadius: {
-        '4xl': '2rem',
+      fontFamily: {
+        primary: 'var(--font-titillium)',
+        playfair: 'var(--font-playfair)',
       },
       colors: {
         secondary: '#F3F8FF',
