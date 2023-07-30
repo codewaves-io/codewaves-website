@@ -16,9 +16,6 @@ module.exports = {
       borderRadius: {
         '4xl': '2rem',
       },
-      fontFamily: {
-        primary: 'var(--font-titillium)',
-      },
       colors: {
         secondary: '#F3F8FF',
         accent: '#F5C070',

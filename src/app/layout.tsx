@@ -7,7 +7,6 @@ const titillium = Titillium_Web({
   style: ['normal', 'italic'],
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-titillium',
 });
 
 type Props = {
