@@ -1,8 +1,14 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Titillium_Web } from 'next/font/google';
 import './global.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const titillium = Titillium_Web({
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-titillium',
+});
 
 type Props = {
   children: React.ReactNode;
@@ -10,14 +16,13 @@ type Props = {
 
 export const metadata: Metadata = {
   title: 'Codewaves',
-  description:
-    'Pregateste te pentru examenul de bacalaureat cu ajutorul inteligentei artificiale.',
+  description: 'Pregateste te pentru examenul de bacalaureat cu ajutorul inteligentei artificiale.',
 };
 
 export default function RootLayout({ children }: Props) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={titillium.className}>{children}</body>
     </html>
   );
 }
