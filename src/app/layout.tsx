@@ -24,13 +24,17 @@ type Props = {
 
 export const metadata: Metadata = {
   title: 'Codewaves',
-  description: 'Pregateste te pentru examenul de bacalaureat cu ajutorul inteligentei artificiale.',
+  description:
+    'Pregateste te pentru examenul de bacalaureat cu ajutorul inteligentei artificiale.',
 };
 
 export default function RootLayout({ children }: Props) {
   return (
-    <html lang="en" className={`${titillium.variable} ${playfair.variable}`}>
-      <body>{children}</body>
+    <html lang='en' className={`${titillium.variable} ${playfair.variable}`}>
+      <body>
+        <nav className='sticky  top-0 flex h-24 w-full justify-between border-b  border-solid border-accent bg-secondary'></nav>
+        {children}
+      </body>
     </html>
   );
 }
