@@ -24,9 +24,9 @@ const HeroSection = () => {
           pulvinar proin viverra ullamcorper ac, eget.
         </p>
         <div className='mt-8 flex'>
-          <Button onClick={handleLearnMore}>Learn more</Button>
-          <Button style='ml-7' type='outlined' onClick={handleLearnMore}>
-            Incepe acum
+          <Button onClick={handleLearnMore}>Inregistreaza-te</Button>
+          <Button style='ml-7' type='outlined' onClick={handleSignUp}>
+            Afla mai mult
           </Button>
         </div>
       </div>
