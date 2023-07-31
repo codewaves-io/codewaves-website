@@ -11,7 +11,7 @@ const titillium = Titillium_Web({
 });
 
 const playfair = Playfair_Display({
-  weight: '700',
+  weight: ['700', '800', '400', '500'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
   display: 'swap',
