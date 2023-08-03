@@ -15,6 +15,9 @@ const config = {
         108: '36rem',
         112: '40rem',
       },
+      minHeight: {
+        112: '40rem',
+      },
       fontFamily: {
         primary: 'var(--font-titillium)',
         playfair: 'var(--font-playfair)',

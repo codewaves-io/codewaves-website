@@ -8,7 +8,7 @@ const AboutUsSection = () => {
   const handleLearnMore = () => {};
 
   return (
-    <div className=' mt-44 flex h-112 w-full flex-col xl:mt-0 xl:flex-row'>
+    <div className=' mt-44 flex min-h-112 w-full flex-col items-center xl:mt-0 xl:flex-row'>
       <div className='flex h-full w-full items-center justify-center xl:w-1/2'>
         <Image
           src={traditionalLearning}
