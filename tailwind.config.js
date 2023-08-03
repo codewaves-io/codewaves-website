@@ -14,9 +14,16 @@ const config = {
         104: '32rem',
         108: '36rem',
         112: '40rem',
+        video: '350px',
+        videoPadding: '450px',
+        maxVideo: '1150px',
+        videoH: '700px',
       },
       minHeight: {
         112: '40rem',
+      },
+      maxWidth: {
+        video: '1150px',
       },
       fontFamily: {
         primary: 'var(--font-titillium)',
