@@ -2,6 +2,9 @@ import type { Metadata } from 'next';
 import { Titillium_Web, Playfair_Display } from 'next/font/google';
 import './global.css';
 
+import Button from './components/common/Button';
+import Footer from './components/client/Footer';
+
 const titillium = Titillium_Web({
   weight: ['400', '700'],
   style: ['normal', 'italic'],
@@ -32,7 +35,7 @@ export default function RootLayout({ children }: Props) {
   return (
     <html lang='en' className={`${titillium.variable} ${playfair.variable}`}>
       <body>
-        <nav className='sticky top-0 flex h-24 w-full items-center justify-between border-b border-solid  border-accent bg-secondary px-24'>
+        <nav className='sticky top-0 z-50 flex h-24 w-full items-center justify-between border-b  border-solid border-accent bg-secondary px-24'>
           <h1 className='text-center font-playfair text-3xl text-primary-900'>
             Codewaves
           </h1>
@@ -44,6 +47,7 @@ export default function RootLayout({ children }: Props) {
           </div>
         </nav>
         {children}
+        <Footer />
       </body>
     </html>
   );

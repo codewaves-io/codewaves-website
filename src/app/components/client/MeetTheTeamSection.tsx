@@ -15,8 +15,8 @@ const MeetTheTeamSection = () => {
         Intalneste echipa <br />
         din spatele <span className='italic text-primary-500'>Codewaves</span>
       </h1>
-      <div className='flex w-full flex-wrap justify-around'>
-        <div className='mb-12 flex flex-col'>
+      <div className='flex w-full flex-wrap justify-center'>
+        <div className='mx-12 mb-12 flex flex-col'>
           <div className='mb-4 h-80 w-80 rounded bg-gray-300'></div>
           <p className='font-primary text-3xl font-bold text-primary-900'>
             Rares Modure
@@ -28,7 +28,7 @@ const MeetTheTeamSection = () => {
             <Image src={InstaIcon} alt='Instagram' className=' h-4 w-4' />
           </div>
         </div>
-        <div className='mb-12 flex flex-col'>
+        <div className='mx-12 mb-12 flex flex-col'>
           <div className='mb-4 h-80 w-80 rounded bg-gray-300'></div>
           <p className='font-primary text-3xl font-bold text-primary-900'>
             Teodor Filp
