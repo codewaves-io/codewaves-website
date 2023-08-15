@@ -27,12 +27,23 @@ export const NavBar = () => {
         <Hamburger toggled={isOpened} toggle={setIsOpened} color='#575A7B' />
         <MobileMenu opened={isOpened} />
       </div>
-      <div className='align-center hidden xl:flex [&>p]:ml-8 [&>p]:cursor-pointer [&>p]:text-primary-900'>
-        <p>Acasa</p>
-        <p>Despre Noi</p>
-        <p>Proces</p>
-        <p>Contact</p>
-      </div>
+      <ul
+        id='nav-list'
+        className='hidden w-80 list-none text-center xl:table [&>li>a]:font-primary [&>li>a]:font-bold [&>li>a]:uppercase [&>li>a]:text-tcolor [&>li]:relative [&>li]:table-cell'
+      >
+        <li className='list-item'>
+          <a href='#'>Acasa</a>
+        </li>
+        <li className='list-item'>
+          <a href='#'>Despre Noi</a>
+        </li>
+        <li className='list-item'>
+          <a href='#'>Proces</a>
+        </li>
+        <li className='list-item'>
+          <a href='#'>Contact</a>
+        </li>
+      </ul>
     </nav>
   );
 };
