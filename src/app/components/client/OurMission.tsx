@@ -9,9 +9,9 @@ const OurMission = () => {
   return (
     <div className=' mt-44 flex min-h-112 w-full flex-col-reverse px-0 xl:mt-0 xl:flex-row xl:px-24'>
       <div className='flex w-full items-center justify-center xl:w-1/2'>
-        <div className='flex w-fit flex-col items-center xl:items-start'>
+        <div className='flex w-fit flex-col items-center px-8 xl:items-start xl:px-0'>
           <p className='mb-4 font-primary text-xl text-primary-500'>
-            - Misiunea noastra
+            - Misiunea noastra -
           </p>
           <h1 className='mb-16 text-center font-playfair text-3xl font-bold text-primary-900 xl:text-left'>
             Învățare ghidată de inteligenta artificiala. <br />
@@ -55,7 +55,7 @@ const OurMission = () => {
           </div>
         </div>
       </div>
-      <div className='h-92 mb-40 flex w-full items-center justify-center xl:mb-0 xl:w-1/2'>
+      <div className='h-92 mb-40 flex w-full items-center justify-center px-8 xl:mb-0 xl:w-1/2 xl:px-0'>
         <Image src={firmwareImage} alt='AI' className='w-100' />
       </div>
     </div>

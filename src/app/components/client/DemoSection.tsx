@@ -7,7 +7,7 @@ import icon3 from '../../../../public/assets/demo-icon-3.png';
 
 const DemoSection = () => {
   return (
-    <div className='relative mt-44 flex w-full flex-col items-center bg-primary-900 py-24'>
+    <div className='relative mt-44 flex w-full flex-col items-center bg-primary-900 px-8 py-24 xl:px-0'>
       <p className='mb-2 font-primary text-xl text-accent'>
         - Produsul Nostru -
       </p>

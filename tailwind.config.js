@@ -3,7 +3,7 @@ const config = {
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     screens: {
-      sm: '480px',
+      sm: '650px',
       md: '768px',
       lg: '976px',
       xl: '1240px',

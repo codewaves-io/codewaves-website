@@ -7,9 +7,9 @@ import FbIcon from '../../../../public/assets/facebook-icon.svg';
 import TwitterIcon from '../../../../public/assets/twitter-icon.svg';
 import InstaIcon from '../../../../public/assets/instagram-icon.svg';
 
-const MeetTheTeamSection = () => {
+const MeetTheTeam = () => {
   return (
-    <div className='flex w-full flex-col items-center justify-center bg-secondary py-24'>
+    <div className='flex w-full flex-col items-center justify-center bg-secondary px-8 py-24 xl:px-0'>
       <p className='mb-2 font-primary text-xl text-primary-500'>
         - Cine suntem ? -
       </p>
@@ -59,4 +59,4 @@ const MeetTheTeamSection = () => {
   );
 };
 
-export default MeetTheTeamSection;
+export default MeetTheTeam;
