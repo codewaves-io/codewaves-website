@@ -34,7 +34,9 @@ const config = {
         accent: '#F5C070',
         tcolor: '#575A7B',
         primary: {
+          100: '#ece7fc',
           500: '#6658EA',
+          700: '#5447d6',
           900: '#1B1642',
         },
       },
