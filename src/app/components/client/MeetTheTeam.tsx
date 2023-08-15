@@ -1,8 +1,6 @@
 import React from 'react';
 
 import Image from 'next/image';
-import RaresProfile from '../../../../public/assets/rares_profile.jpg';
-import FilpProfile from '../../../../public/assets/filp_profile.jpeg';
 import FbIcon from '../../../../public/assets/facebook-icon.svg';
 import TwitterIcon from '../../../../public/assets/twitter-icon.svg';
 import InstaIcon from '../../../../public/assets/instagram-icon.svg';
@@ -19,13 +17,7 @@ const MeetTheTeam = () => {
       </h1>
       <div className='flex w-full flex-wrap justify-center'>
         <div className='mx-12 mb-12 flex flex-col'>
-          <div className='mb-4 h-80 w-80 rounded '>
-            <Image
-              src={RaresProfile}
-              alt='Rares Modure profile image'
-              className='h-full w-full'
-            />
-          </div>
+          <div className="mb-4 h-80 w-80 cursor-pointer rounded-xl bg-[url('/assets/rares_profile.jpg')] bg-cover bg-center bg-no-repeat shadow-xl transition-all hover:scale-105"></div>
           <p className='font-primary text-3xl font-bold text-primary-900'>
             Rares Modure
           </p>
@@ -37,13 +29,7 @@ const MeetTheTeam = () => {
           </div>
         </div>
         <div className='mx-12 mb-12 flex flex-col'>
-          <div className='mb-4 h-80 w-80 rounded'>
-            <Image
-              src={FilpProfile}
-              alt='Teodor Filp profile image'
-              className='h-full w-full'
-            />
-          </div>
+          <div className="mb-4 h-80 w-80 cursor-pointer rounded-xl bg-[url('/assets/filp_profile.jpeg')] bg-cover bg-center bg-no-repeat shadow-xl transition-all hover:scale-105"></div>
           <p className='font-primary text-3xl font-bold text-primary-900'>
             Teodor Filp
           </p>
