@@ -1,0 +1,13 @@
+.nav-menu {
+  width: 100vw;
+  height: calc(100vh - 96px);
+  position: fixed;
+  top: 96px;
+  left: 100vw;
+  transition: all 0.5s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.opened {
+  left: 0;
+}
