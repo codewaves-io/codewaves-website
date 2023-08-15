@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Image from 'next/image';
+import RaresProfile from '../../../../public/assets/rares_profile.jpg';
+import FilpProfile from '../../../../public/assets/filp_profile.jpeg';
 import FbIcon from '../../../../public/assets/facebook-icon.svg';
 import TwitterIcon from '../../../../public/assets/twitter-icon.svg';
 import InstaIcon from '../../../../public/assets/instagram-icon.svg';
@@ -17,7 +19,13 @@ const MeetTheTeamSection = () => {
       </h1>
       <div className='flex w-full flex-wrap justify-center'>
         <div className='mx-12 mb-12 flex flex-col'>
-          <div className='mb-4 h-80 w-80 rounded bg-gray-300'></div>
+          <div className='mb-4 h-80 w-80 rounded '>
+            <Image
+              src={RaresProfile}
+              alt='Rares Modure profile image'
+              className='h-full w-full'
+            />
+          </div>
           <p className='font-primary text-3xl font-bold text-primary-900'>
             Rares Modure
           </p>
@@ -29,7 +37,13 @@ const MeetTheTeamSection = () => {
           </div>
         </div>
         <div className='mx-12 mb-12 flex flex-col'>
-          <div className='mb-4 h-80 w-80 rounded bg-gray-300'></div>
+          <div className='mb-4 h-80 w-80 rounded'>
+            <Image
+              src={FilpProfile}
+              alt='Teodor Filp profile image'
+              className='h-full w-full'
+            />
+          </div>
           <p className='font-primary text-3xl font-bold text-primary-900'>
             Teodor Filp
           </p>

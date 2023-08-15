@@ -1,8 +1,15 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Button from '../common/Button';
 
 const Footer = () => {
+  const [date, setDate] = useState<string>('');
+
+  useEffect(() => {
+    setDate(new Date().toLocaleDateString());
+  }, []);
+
   return (
     <footer className='w-full bg-primary-900'>
       <div className='flex w-full items-center justify-between border-t border-solid border-tcolor px-24 py-6'>
@@ -16,7 +23,7 @@ const Footer = () => {
           CodeWaves.
         </h1>
         <p className='text-md font-primary font-thin text-white'>
-          &copy; {new Date().toLocaleDateString()} All rights reserved.
+          &copy; {date} All rights reserved.
         </p>
       </div>
     </footer>

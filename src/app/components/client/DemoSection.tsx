@@ -7,7 +7,7 @@ import icon3 from '../../../../public/assets/demo-icon-3.png';
 
 const DemoSection = () => {
   return (
-    <div className='relative mt-videoPadding flex w-full flex-col items-center bg-primary-900 py-24 pt-videoPadding '>
+    <div className='relative mt-44 flex w-full flex-col items-center bg-primary-900 py-24'>
       <p className='mb-2 font-primary text-xl text-accent'>
         - Produsul Nostru -
       </p>
@@ -49,7 +49,8 @@ const DemoSection = () => {
       <p className='text-center font-playfair text-5xl font-bold text-accent'>
         . . . .
       </p>
-      <div className='absolute -top-video h-videoH w-full max-w-video rounded-3xl bg-gray-300'></div>
+      {/* Commented this section until we have a video demo to show */}
+      {/* <div className='absolute -top-video h-videoH w-full max-w-video rounded-3xl bg-gray-300'></div> */}
     </div>
   );
 };
